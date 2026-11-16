@@ -1,0 +1,41 @@
+/* BAGIAN D - FLEXBOX 3 */
+
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+.galeri {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* Baris pertama: 3 foto */
+.baris-atas {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+/* Baris kedua: 5 foto */
+.baris-bawah {
+    display: flex;
+    gap: 5px;
+}
+
+/* Pengaturan gambar */
+.baris-atas img {
+    width: 33.33%;
+    height: 80px;
+    object-fit: cover;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.baris-bawah img {
+    width: 20%;
+    height: 65px;
+    object-fit: cover;
+    border: 3px solid black;
+    border-radius: 5px;
+}
